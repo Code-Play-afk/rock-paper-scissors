@@ -47,7 +47,7 @@ img:not([src]) {
 
 #score {
   padding: 20px;
-  height: 250px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -82,7 +82,7 @@ img:not([src]) {
 
 #container {
   width: 60%;
-  height: 200px;
+  height: 150px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -103,7 +103,7 @@ img:not([src]) {
 
 footer {
   background: rgb(38, 32, 30);
-  height: 150px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
