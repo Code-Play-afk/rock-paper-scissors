@@ -11,6 +11,7 @@ body {
   color: rgb(38, 32, 30);
 }
 #arena {
+  margin: auto;
   padding-top: 20px;
   width: 80%;
   height: 250px;
@@ -45,7 +46,6 @@ img:not([src]) {
 }
 
 #score {
-  border: 2px solid black;
   padding: 20px;
   height: 250px;
   display: flex;
@@ -55,7 +55,7 @@ img:not([src]) {
 }
 
 #result {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #points {
@@ -82,6 +82,7 @@ img:not([src]) {
 
 #container {
   width: 60%;
+  height: 200px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -100,20 +101,17 @@ img:not([src]) {
   opacity: 0.5;
 }
 
-#container > #scissors-btn {
-  width: 80px;
-  height: 80px;
-}
-
 footer {
   background: rgb(38, 32, 30);
-  height: 100px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
+
 footer > h2,
 footer > p {
   color: rgb(235, 235, 239);
+  text-align: center;
 }
