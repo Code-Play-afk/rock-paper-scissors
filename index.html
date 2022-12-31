@@ -6,8 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="assets/_images/_icon.png" />
     <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
+    <div id="arena">
+      <div class="arena-items" id="you">
+        <h2 id="you-text"></h2>
+        <img src="" id="you-img" />
+      </div>
+      <div class="arena-items" id="bot">
+        <h2 id="bot-text"></h2>
+        <img src="" id="bot-img" />
+      </div>
+    </div>
+    <div id="score">
+      <h1 id="result">You Win</h1>
+      <p id="points">2</p>
+      <button id="play-again">Play Again?</button>
+    </div>
+    <div id="container">
+      <img src="assets/_images/rock.png" id="rock-btn" />
+      <img src="assets/_images/paper .png" id="paper-btn" />
+      <img src="assets/_images/scissors.png" id="scissors-btn" />
+    </div>
     <script src="assets/script.js"></script>
   </body>
 </html>
