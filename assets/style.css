@@ -21,6 +21,7 @@
   width: 800%;
   display: flex;
   flex-direction: column;
+  align-items: center;;
   justify-content: flex-start;
 }
 
@@ -31,9 +32,9 @@
 
 #bot-img,
 #you-img {
-  margin-top:0px
-  width: 250px;
-  height: 250px;
+  margin-top:0px;
+  width: 180px;
+  height: 180px;
 }
 
 img[src=""],
@@ -91,12 +92,8 @@ img:not([src]) {
   cursor: pointer;
   transition: all 0.3s;
 }
-
-#container > img:hover {
-  scale: 1.1;
-}
-
 #container > img:active {
+  scale: 0.95;
   opacity: 0.5;
 }
 
