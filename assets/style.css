@@ -8,8 +8,9 @@
 }
 
 #arena {
-  padding-top: 30px;
-  height: 400px;
+  padding-top: 20px;
+  width 80%
+  height: 250px;
   background-color: lightblue;
   display: flex;
   justify-content: center;
@@ -17,7 +18,7 @@
 
 .arena-items {
   height: 100%;
-  width: 400px;
+  width: 800%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -30,8 +31,9 @@
 
 #bot-img,
 #you-img {
-  width: 300px;
-  height: 300px;
+  margin-top:0px
+  width: 250px;
+  height: 250px;
 }
 
 img[src=""],
@@ -75,16 +77,17 @@ img:not([src]) {
 }
 
 #container {
-  width: 400px;
+  width: 60%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;;
   align-items: center;
 }
 
 #container > img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height:100px;
+  margin:10px 20px;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -98,6 +101,6 @@ img:not([src]) {
 }
 
 #container > #scissors-btn {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
 }
